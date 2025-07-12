@@ -279,7 +279,7 @@ current_age = st.sidebar.selectbox(
 retirement_age = st.sidebar.selectbox(
     t['retirement_age'],
     options=list(range(50, 80)),
-    index=15  # default 65 years old
+    index=10  # default 65 years old
 )
 
 # Additional parameters in sidebar
